@@ -1,3 +1,4 @@
+/* Основні стилі для body */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -194,4 +195,29 @@ body {
     width: 35px;
     height: 35px;
   }
+}
+
+/* Шапка */
+.header {
+  background: url('cl.webp') no-repeat center center; /* Малий розмір для мобільних */
+  background-size: cover;
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Для великих екранів */
+@media screen and (min-width: 1024px) {
+  .header {
+    background: url('cl.webp') no-repeat center center; /* Великий розмір для десктопів */
+  }
+}
+
+.header {
+  background: url('cl.webp') no-repeat center center;
+  background-size: cover;
 }
