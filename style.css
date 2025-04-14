@@ -8,7 +8,7 @@ body {
 
 /* 🔝 Шапка */
 .header {
-  background: url('cl.webp') center/cover no-repeat;
+  background: url('header-bg.jpg') center/cover no-repeat;
   color: white;
   padding: 40px 20px;
   display: flex;
@@ -16,6 +16,7 @@ body {
   justify-content: flex-start;
   gap: 20px;
   min-height: 200px;
+  flex-wrap: wrap; /* Додано для адаптивності */
 }
 
 .logo-container {
@@ -48,6 +49,7 @@ body {
   padding: 40px 20px;
 }
 
+/* 🔧 Послуги */
 .services {
   padding: 50px 0;
   background: #fff;
@@ -126,6 +128,8 @@ body {
 }
 
 /* 📱 Адаптивність для мобільних і планшетів */
+
+/* Для планшетів і мобільних до 768px */
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -139,7 +143,7 @@ body {
   }
 
   .site-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .site-subtitle {
@@ -149,11 +153,13 @@ body {
   .service-list {
     flex-direction: column;
     gap: 15px;
+    margin-top: 20px;
   }
 
   .service-item {
     width: 100%;
     margin-bottom: 15px;
+    padding: 15px;
   }
 
   .floating-phone {
@@ -163,9 +169,10 @@ body {
   }
 }
 
+/* Для мобільних телефонів до 480px */
 @media screen and (max-width: 480px) {
   .site-title {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .site-subtitle {
@@ -173,7 +180,7 @@ body {
   }
 
   .service-item {
-    padding: 15px;
+    padding: 10px;
     width: 90%;
   }
 
