@@ -3,67 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cleaning Masters — Клінінгова компанія в Коломиї, Яблунові, Косові, Яремчі та Надвірній</title>
-  <meta name="description" content="Cleaning Masters — професійна клінінгова компанія. Прибирання квартир, будинків, офісів у Коломиї, Яблунові, Косові, Яремчі та Надвірній. Якість, швидкість, гарантія чистоти.">
-  <meta name="keywords" content="клінінг Коломия, клінінг Яблунів, клінінг Косів, клінінг Яремча, клінінг Надвірна, клінінгова компанія, Cleaning Masters, прибирання будинків, прибирання офісів">
-  
-  <!-- Додаємо іконку -->
-  <link rel="icon" href="logo.png" type="image/x-icon">
-  
-  <!-- Додатково: можна додати для різних розмірів -->
-  <link rel="icon" href="logo.png" sizes="32x32">
-  <link rel="icon" href="logo.png" sizes="16x16">
+  <title>Cleaning Masters — Клінінгова компанія </title>
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
 </head>
 <body>
-
-  <!-- Хедер -->
+  <!-- Шапка -->
   <header class="header">
     <div class="logo-container">
-      <img src="logo.png" alt="Логотип Cleaning Masters" class="logo">
-      <h1 class="site-title">Cleaning Masters</h1>
-      <p class="site-subtitle">Клінінгова компанія</p>
+      <img src="logo.png" alt="Cleaning Masters Logo" class="logo">
+      <div>
+        <h1 class="site-title">Cleaning Masters</h1>
+        <p class="site-subtitle">Прибираємо як для себе — якісно та швидко!</p>
+      </div>
     </div>
-    <!-- Іконка Instagram в шапці -->
-    <a href="https://www.instagram.com/yourusername" target="_blank" class="instagram-link">
-      <img src="instagram.png" alt="Instagram" class="instagram-icon">
+    <a href="https://instagram.com/твій_інстаграм" class="instagram-link" target="_blank" rel="noopener">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="instagram-icon">
     </a>
   </header>
 
-  <!-- Головний заголовок -->
-  <div class="container">
-    <h1>Cleaning Masters — клінінгові послуги в Коломиї, Яблунові, Косові, Яремчі та Надвірній</h1>
-    <p>Компанія <strong>Cleaning Masters</strong> пропонує професійний клінінг житлових та комерційних приміщень у <strong>Коломиї</strong>, <strong>Яблунові</strong>, <strong>Косові</strong>, <strong>Яремчі</strong> та <strong>Надвірній</strong>. Ми забезпечуємо якісне прибирання квартир, будинків, офісів, після ремонту або свят. Працюємо швидко, акуратно та з гарантією чистоти!</p>
-  </div>
+  <!-- Головна інформація -->
+  <section class="container">
+    <h1 id="title">Клінінгова компанія у всій Івано-Франківській області</h1>
+    <p id="description">Ми пропонуємо професійне прибирання квартир, будинків, офісів та приміщень після ремонту.</p>
+    <div id="city-content"></div>
+  </section>
+
+  <!-- Відео-презентація -->
+  <section class="container">
+    <h2>Наші роботи</h2>
+    <div class="video-gallery">
+      <video controls class="video-item">
+        <source src="videos/InShot_20250403_165434546.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+      </video>
+      <video controls class="video-item">
+        <source src="videos/InShot_20250403_211120564.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+      </video>
+      <video controls class="video-item">
+        <source src="videos/InShot_20250403_213936074.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+      </video>
+    </div>
+  </section>
 
   <!-- Послуги -->
-  <div class="services">
+  <section class="services">
     <h2>Наші послуги</h2>
     <div class="service-list">
-      <div class="service-item">
-        <h3>Прибирання квартир</h3>
-        <p class="price">Ціна: 500 грн</p>
-      </div>
-      <div class="service-item">
-        <h3>Прибирання офісів</h3>
-        <p class="price">Ціна: 700 грн</p>
-      </div>
-      <div class="service-item">
-        <h3>Післяремонтне прибирання</h3>
-        <p class="price">Ціна: 1200 грн</p>
-      </div>
+      <div class="service-item"><h3>Генеральне прибирання</h3><p class="price">70 грн/м²</p></div>
+      <div class="service-item"><h3>Підтримуюче прибирання</h3><p class="price">50 грн/м²</p></div>
+      <div class="service-item"><h3>Прибирання після ремонту</h3><p class="price">80 грн/м²</p></div>
+      <div class="service-item"><h3>Офіси, магазини, салони</h3><p class="price">60 грн/м²</p></div>
+      <div class="service-item"><h3>Миття вивісок, вікон, дверей, фасадів</h3><p class="price">50 грн/м² (одна сторона)</p></div>
+      <div class="service-item"><h3>Решітки, жалюзі, ролети</h3><p class="price">+100 грн/проліт</p></div>
+      <div class="service-item"><h3>Після свят та вечірок</h3><p class="price">70 грн/м²</p></div>
+      <div class="service-item"><h3>Хімчистка меблів</h3><p class="price">Крісло — від 150 грн/шт<br>Диван — від 1200 грн/шт</p></div>
+      <div class="service-item"><h3>Хімчистка килимів</h3><p class="price">від 80 грн/м²</p></div>
+      <div class="service-item"><h3>Миття техніки всередині</h3><p class="price">від 500 грн/шт</p></div>
+      <div class="service-item"><h3>Дезінфекція парою</h3><p class="price">від 80 грн/м²</p></div>
     </div>
-  </div>
+  </section>
 
-  <!-- Телефон -->
-  <div class="floating-phone" onclick="callNow()">
-    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Телефон">
+  <!-- Кнопка телефону -->
+  <div class="floating-phone" title="Зателефонувати">
+    <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="0685669590">
   </div>
 
   <!-- Футер -->
   <footer class="footer">
-    <p>© 2025 cleaning_masters. Всі права захищені.</p>
+    <p>&copy; 2025 Cleaning Masters. Всі права захищені.</p>
   </footer>
 
   <script src="script.js"></script>
